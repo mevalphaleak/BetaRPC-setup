@@ -1,7 +1,7 @@
-# WARNING: THIS IS EXPERIMENTAL SOFTWARE WRITTEN AS-IS IN 48 HOURS, YOU WILL SEE LOTS OF CRASHES AND BUGS
+# WARNING: THIS IS EXPERIMENTAL SOFTWARE
 # BetaRPC-setup
 
-This is a clone of https://github.com/Taichi-Network/docs/blob/master/sendPriveteTx_tutorial.md though I believe it introduces few important features which make this product more convient(faster confirmation time) and safer[**ONCE IT BECOMES STABLE**] for end users.
+This is a clone of https://github.com/Taichi-Network/docs/blob/master/sendPriveteTx_tutorial.md though I believe it introduces few important features which make this product more convient(faster confirmation time) and safer for end users.
 
 ## Nodes
 
@@ -42,7 +42,8 @@ It will be funded by any MEV that doesn't negatively affect BetaRPC users in any
 ## (IV) No extra fees and minimal logging 
 Endpoint is provided completely for free  
 This endpoint will not save your IP or any personally identifiable information because it's none of my business.  
-I'll also spin-up otterscan(https://github.com/wmitsuda/otterscan) instance to show any pending txs  
+I'll also spin-up otterscan(https://github.com/wmitsuda/otterscan) instance to show any pending txs
+
 ## TBD
 At the moment main priority is to make this endpoint relatively stable.
 Right now code quality is abysmal(it was implemented in 2 days), but I'll try to open source main logic + ML models so you can run limited version locally with your own full node. Though it's not high-pri since main audience("beta" traders) don't run their own full nodes. 
