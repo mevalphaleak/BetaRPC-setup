@@ -1,11 +1,11 @@
 # WARNING: THIS IS EXPERIMENTAL SOFTWARE
 # BetaRPC-setup
 
-BetaRPC is the most feature-rich RPC endpoint for DeFi wallets. By aggregating majority of public+private endpoints as well as MEV relays and leveraging smart routing between them it provides numerous benefits to its users:
-1) Mitigates harmful externalities of MEV(Sandwiches)
+BetaRPC is the most feature-rich RPC endpoint for DeFi wallets. By aggregating majority of public+private RPC endpoints as well as MEV relays and leveraging smart routing between them it provides numerous benefits to its users:
+1) Mitigates negative externalities of MEV(like front-running or sandwiches)
 2) Protects against failed transactions via MEV bundles when necessary(don't pay gas fee for failed NFT mints)
 3) Back-runs all eligible transactions and provides full rebate to its users
-4) And you receive all benefits above for free without sacrificing speed of transaction confirmation when MEV protection isn't needed like simple ETH or token transfers.
+4) And you receive all benefits above for free without sacrificing speed of transaction confirmation when MEV protection isn't necessary like simple ETH or token transfers.
 
 ## Nodes
 
@@ -48,12 +48,12 @@ Endpoint is provided completely for free
 This endpoint will not save your IP or any personally identifiable information because it's none of my business.  
 I'll also spin-up otterscan(https://github.com/wmitsuda/otterscan) instance to show any pending txs
 
-## TBD
-At the moment main priority is to make this endpoint relatively stable.
-Right now code quality is abysmal(it was implemented in 2 days), but I'll try to open source main logic + ML models so you can run limited version locally with your own full node. Though it's not high-pri since main audience("beta" traders) don't run their own full nodes. 
-
 ## Competition
-There are several other endpoints which provide simillar MEV protection, but none of them match features available for BetaRPC users:
+There are several other endpoints which provide comparable MEV protection, but none of them match all the features available for BetaRPC users:
 1) TaiChi network by SparkPool: https://github.com/Taichi-Network/docs/blob/master/sendPriveteTx_tutorial.md
-2) Backrunme endpoint by BloxRoute: https://docs.bloxroute.com/introduction/backrunme#metamask-custom-rpc
+2) BackRunMe endpoint by BloxRoute: https://docs.bloxroute.com/introduction/backrunme#metamask-custom-rpc
 3) EDEN network endpoint: https://docs.edennetwork.io/for-traders/eden-relay/eden-rpc
+
+## TBD
+At the moment main priority is to make this endpoint completely stable and tune accuracy of underlying ML models to the limit.
+Code quality is still low("experimental" stage), but I'll try to open source main logic + ML models so you can run limited version locally with your own full node. Though it's not high-pri since main audience("beta" traders) don't run their own full nodes. 
