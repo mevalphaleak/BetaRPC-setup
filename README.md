@@ -20,7 +20,7 @@ BetaRPC is the most feature-rich RPC endpoint for DeFi wallets. By aggregating m
 
 ![](menu2.png)
 
-To make sure that you can leverage all features of BetaRPC and capable of "un-stucking" pending transactions it's also recommended to enable ability to set "Transaction Nonce" manually, this option can be found under `Settings` -> `Advanced`:  
+To make sure that you can leverage all features of BetaRPC and capable of "un-stucking" pending transactions it's also highly recommended to enable ability to set "Transaction Nonce" manually, this option can be found under `Settings` -> `Advanced`:  
 
 ![](menu3.png)
 
