@@ -1,4 +1,6 @@
 # WARNING: THIS IS EXPERIMENTAL SOFTWARE
+Feedback is a gift so if you've run into any issues please open an issue on github.
+
 # BetaRPC-setup
 
 BetaRPC is the most feature-rich RPC endpoint for DeFi wallets. By aggregating majority of public+private RPC endpoints as well as MEV relays and leveraging smart routing between them it provides numerous benefits to its users:
