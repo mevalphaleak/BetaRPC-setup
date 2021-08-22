@@ -57,7 +57,8 @@ I'll also spin-up otterscan(https://github.com/wmitsuda/otterscan) instance to s
 There are several other endpoints which provide comparable MEV protection, but none of them match all the features available for BetaRPC users:
 1) TaiChi network by SparkPool: https://github.com/Taichi-Network/docs/blob/master/sendPriveteTx_tutorial.md
 2) BackRunMe endpoint by BloxRoute: https://docs.bloxroute.com/introduction/backrunme#metamask-custom-rpc
-3) EDEN network endpoint: https://docs.edennetwork.io/for-traders/eden-relay/eden-rpc
+3) EDEN network endpoint: https://docs.edennetwork.io/for-traders/eden-relay/eden-rpc  
+
 There's also FlashBots MEV relay endpoint:  
 https://relay.flashbots.net  
 Though it can't be used directly within MetaMask at the moment.
