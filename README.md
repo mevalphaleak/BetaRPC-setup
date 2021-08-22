@@ -3,7 +3,7 @@ Feedback is a gift so if you've run into any issues please open an issue on gith
 
 # BetaRPC-setup
 
-BetaRPC is the most feature-rich RPC endpoint for DeFi wallets. By aggregating majority of public+private RPC endpoints as well as MEV relays and leveraging smart routing between them it provides numerous benefits to its users:
+BetaRPC is the most feature-rich RPC endpoint for DeFi wallets. By aggregating majority of public+private RPC endpoints as well as MEV relays(like FlashBots) and leveraging smart routing between them it provides numerous benefits to its users:
 1) Mitigates negative externalities of MEV(like front-running or sandwiches)
 2) Protects against failed transactions via MEV bundles when necessary(don't pay gas fee for failed NFT mints)
 3) Back-runs all eligible transactions and provides full rebate to its users
