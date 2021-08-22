@@ -58,6 +58,9 @@ There are several other endpoints which provide comparable MEV protection, but n
 1) TaiChi network by SparkPool: https://github.com/Taichi-Network/docs/blob/master/sendPriveteTx_tutorial.md
 2) BackRunMe endpoint by BloxRoute: https://docs.bloxroute.com/introduction/backrunme#metamask-custom-rpc
 3) EDEN network endpoint: https://docs.edennetwork.io/for-traders/eden-relay/eden-rpc
+There's also FlashBots MEV relay endpoint:  
+https://relay.flashbots.net  
+Though it can't be used directly within MetaMask at the moment.
 
 ## TBD
 At the moment main priority is to make this endpoint completely stable and tune accuracy of underlying ML models to the limit.
