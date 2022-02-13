@@ -1,5 +1,5 @@
-# WARNING: THIS IS EXPERIMENTAL SOFTWARE
-Feedback is a gift so if you've run into any issues please open an issue on github.
+# WARNING: THIS PROJECT IS NOT MAINTAINED SINCE OCTOBER 2022
+At the moment there're far better maintained alternatives so if you experience any issues, just switch to them instead.
 
 # BetaRPC-setup
 
