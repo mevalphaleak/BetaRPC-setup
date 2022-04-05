@@ -1,4 +1,4 @@
-# WARNING: THIS PROJECT IS NOT MAINTAINED SINCE OCTOBER 2022
+# WARNING: THIS PROJECT IS NOT MAINTAINED SINCE OCTOBER 2021
 At the moment there're far better maintained alternatives so if you experience any issues, just switch to them instead.
 
 # BetaRPC-setup
